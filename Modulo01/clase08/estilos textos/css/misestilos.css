@@ -1,0 +1,48 @@
+body{
+	font-family: arial;
+	color:black;
+}
+.titulo-principal{
+	color: blue;
+	font-size: 20px;
+
+}
+
+.primera-letra{
+	font-size: 50px;
+}
+
+.parrafo2{
+
+	font-size: 15px;
+	color: blue;
+	font-weight: bold;
+	line-height: 18px;
+	letter-spacing: 2px;
+	word-spacing: 10px;
+}
+
+
+.parrafo3{
+	text-transform: capitalize;
+	font-style: italic;
+	text-indent: 100px;
+	text-decoration: line-through;
+}
+
+.detalle1{
+	/*color:orange;*/
+	/*color:#73CD43;*/
+	/*color:rgb(115, 205, 67);*/
+	/*color:hsl(99, 67%, 53%);*/
+	
+	/*color:rgb(0,0,0);
+	color:rgba(0,0,0,1);*/
+	color:hsla(99, 67%, 53%,0.4);
+
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}

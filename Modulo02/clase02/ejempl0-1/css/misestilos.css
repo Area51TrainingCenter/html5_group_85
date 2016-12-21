@@ -1,0 +1,17 @@
+.ui-title-site{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.ui-nav-site{
+	display: inline-block;
+	vertical-align: top;
+}
+.ui-nav-site ul li{
+	display: inline-block;
+}
+.item-servicio{
+	display: inline-block;
+	vertical-align: top;
+	width: 200px;
+}

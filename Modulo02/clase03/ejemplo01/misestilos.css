@@ -1,0 +1,106 @@
+body{
+	font-family: arial;
+}
+*{
+	box-sizing: border-box;
+}
+.wrapper{
+		width: 1024px;
+		margin:0 auto;
+	}
+	.sec-noticias{
+		padding-top: 15px;
+	}
+	.columnas{
+		width: 310px;
+		display: inline-block;
+		vertical-align: top;
+		margin-left: 5px;
+		margin-right: 5px;
+
+	}
+
+.article-img{
+	/*border:3px solid black;*/
+	border-radius: 10px;
+	box-shadow: 0px -1px 2px 2px #ececec;
+	-webkit-box-shadow: 0px -1px 2px 2px #ececec;
+	-moz-box-shadow: 0px -1px 2px 2px #ececec;
+	-ms-box-shadow: 0px -1px 2px 2px #ececec;
+	-o-box-shadow: 0px -1px 2px 2px #ececec;
+	margin-bottom: 15px;
+}
+.pad-item{
+	padding:10px 15px;
+	border-bottom:3px solid #d5d5d5;
+	border-left:3px solid #d5d5d5;
+	border-right:3px solid #d5d5d5;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+.item-sm{
+	border-top:3px solid #d5d5d5;
+	border-radius: 10px;
+}
+	.img-item{
+		width: 100%;
+		border-top-left-radius: 9px;
+		border-top-right-radius: 9px;
+		vertical-align: top;
+	}
+
+	/** para conocer los tipos de border visita el siguiente enlace
+
+	http://www.w3schools.com/cssref/pr_border-style.asp 
+
+	*/
+
+
+	.ui-categoria{
+		font-size: 18px;
+		border-bottom: 3px solid red;
+		
+		margin-bottom: 10px;
+		display: inline-block;
+		padding-bottom: 5px;
+	}
+
+	.ui-titulo{
+		font-size: 22px;
+
+	}
+
+	.ui-fecha{
+		font-size: 16px;
+		margin-top: 20px;
+		display: inline-block;
+
+	}
+
+
+	.item-3 .ui-img-noticia{
+		width: 136px;
+	}
+
+	.item-3 .detalle-noticia{
+		width: 150px;
+		display: inline-block;
+		vertical-align: top;
+		padding-left: 10px;
+		padding-top: 10px;
+		border-right: 3px solid #d5d5d5;
+		border-top: 3px solid #d5d5d5;
+		border-bottom: 3px solid #d5d5d5;
+		border-top-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+	}
+	.item-3 h2{
+		font-size: 20px;
+	}
+
+	.item-3 time{
+		font-size: 15px;
+		color: black;
+		display: inline-block;
+		margin-top: 15px;
+	}

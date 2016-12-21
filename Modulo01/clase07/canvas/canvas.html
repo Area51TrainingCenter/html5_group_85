@@ -1,0 +1,21 @@
+ <canvas id="exampleCanvas" width="500" height="300">
+   <!-- OPTION 1: leave a message here if browser doesn't support canvas -->
+	      Your browser doesn’t currently support HTML5 Canvas. Please check caniuse.com/#feat=canvas for information on browser support for canvas. 
+
+		<!-- OPTION 2: put fallback content (text, image, Flash, etc.) if the browser doesn't support canvas -->
+</canvas>
+
+<style>
+	
+</style>
+
+<script>
+	
+	var canvas = document.getElementById('exampleCanvas'),
+    context = canvas.getContext('2d');
+
+context.beginPath();
+context.moveTo(50, 50);
+context.lineTo(250, 450);
+context.stroke();
+</script>
